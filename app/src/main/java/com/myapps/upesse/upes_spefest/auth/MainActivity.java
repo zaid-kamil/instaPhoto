@@ -115,7 +115,7 @@ public class MainActivity extends AppCompatActivity {
     @MainThread
     @DrawableRes
     private int getSelectedLogo() {
-            return R.drawable.cover;
+            return R.drawable.camera;
     }
 
     @MainThread

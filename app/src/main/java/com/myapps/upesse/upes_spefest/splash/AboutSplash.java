@@ -42,10 +42,7 @@ public class AboutSplash extends AppCompatActivity {
              }
             }
             if(intent.hasExtra(ABOUT_NIMBUS)){
-                findViewById(R.id.video_img).setVisibility(View.GONE);
-                showByDefault.setVisibility(View.GONE);
-                next.setVisibility(View.GONE);
-                findViewById(R.id.nimbus_is).setVisibility(View.GONE);
+
             }
         }
         Boolean isDefaultChecked=preferences.getBoolean(DEFAULT_CHECK,true);
@@ -80,13 +77,7 @@ public class AboutSplash extends AppCompatActivity {
 
         }
 
-        findViewById(R.id.video_img).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent browser = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=Njw0IUR6j6s"));
-                startActivity(browser);
-            }
-        });
+
 
         next.setRotation(-90);
 

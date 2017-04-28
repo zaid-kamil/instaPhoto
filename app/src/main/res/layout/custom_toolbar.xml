@@ -9,20 +9,16 @@
     app:layout_scrollFlags="scroll|enterAlways"
     app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
 
-    <ImageView
+    <TextView
         android:id="@+id/ivLogo"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_gravity="center"
         android:scaleType="center"
-        android:src="@drawable/img_toolbar_logo" />
+        android:text="Welcome"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="36sp"
+        android:textStyle="bold" />
 
-    <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="match_parent"
-        android:layout_gravity="left"
-        android:adjustViewBounds="true"
-        android:scaleType="centerInside"
-        android:padding="10dp"
-        android:src="@drawable/cover" />
 </android.support.v7.widget.Toolbar>

@@ -189,7 +189,7 @@ public class BaseDrawerActivity extends BaseActivity
                         Intent newPostIntent = new Intent(getApplicationContext(), NewPostActivity.class);
                         startActivity(newPostIntent);
                         break;
-                    case R.id.menu_schedule:
+                    /*case R.id.menu_schedule:
                         navItemIndex = 7;
                         startActivity(new Intent(getApplicationContext(), ScheduleActivity.class));
                         //drawer.closeDrawers();
@@ -199,13 +199,13 @@ public class BaseDrawerActivity extends BaseActivity
                         //CURRENT_TAG = TAG_MOVIES;
                         startActivity(new Intent(getApplicationContext(), EventsMainActivity.class));
                         //drawer.closeDrawers();
-                        return true;
-                    case R.id.menu_conferences:
+                        return true;*/
+                 /*   case R.id.menu_conferences:
                         navItemIndex = 3;
                         //CURRENT_TAG = TAG_NOTIFICATIONS;
                         startActivity(new Intent(getApplicationContext(), ConferencesActivity.class));
                         //drawer.closeDrawers();
-                        return true;
+                        return true;*/
                     case R.id.about:
                         navItemIndex = 5;
                         startActivity(new Intent(getApplicationContext(), AboutActivity.class));

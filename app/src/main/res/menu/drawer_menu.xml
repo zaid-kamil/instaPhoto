@@ -9,18 +9,18 @@
             android:id="@+id/menu_upload"
             android:icon="@drawable/upload"
             android:title="Upload image" />
-        <item
+        <!--<item
             android:id="@+id/menu_schedule"
             android:icon="@drawable/schedule"
             android:title="Schedule" />
         <item
             android:id="@+id/menu_events"
             android:icon="@drawable/ic_global_menu_news"
-            android:title="Events" />
-        <item
+            android:title="Events" />-->
+        <!--<item
             android:id="@+id/menu_conferences"
             android:icon="@drawable/ic_global_menu_popular"
-            android:title="Conferences" />
+            android:title="Conferences" />-->
 
     </group>
 

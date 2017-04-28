@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">UPES SPE Fest 2017</string>
+    <string name="app_name">InstaPhoto</string>
 
     <!-- strings for Auth UI demo activities -->
     <eat-comment />
@@ -199,8 +199,8 @@ Lectures are a great way to gain knowledge and insight. However, one may say the
 Curiosity might have killed the cat, but it is the driving force behind all innovation and the will to learn new things. An erudite discussion by acclaimed professionals teaches one a lot, but is rendered moot if one does not get a chance to pick their brains, which is why each panel will be followed by a short Question and Answer round to ensure participants’ thorough understanding.
 </string>
 
-    <string name="about1t">UPES SPE Student Chapter</string>
-    <string name="about2t">UPES SPE Fest</string>
+    <string name="about1t">Chapter</string>
+    <string name="about2t">Fest</string>
     <string name="about3t">Conquering Changes</string>
     <string name="about1">
         Established in 2009 under the flagship of SPE North India Section, the UPES SPE Student Chapter has made giant strides to transpire into a touchstone establishing its mission: to collect, disseminate and exchange technical knowledge among its members.\n\n

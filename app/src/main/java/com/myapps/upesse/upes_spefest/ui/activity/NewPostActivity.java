@@ -602,7 +602,7 @@ public class NewPostActivity extends BaseActivity implements
         mImageView.setImageBitmap(mBitmap);
     }
 
-    @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
+
     public static boolean checkCamPermission(final Context context) {
         int currentAPIVersion = Build.VERSION.SDK_INT;
         if (currentAPIVersion >= android.os.Build.VERSION_CODES.M) {
@@ -636,7 +636,7 @@ public class NewPostActivity extends BaseActivity implements
 
     }
 
-    @TargetApi(Build.VERSION_CODES.JELLY_BEAN)
+
     public static boolean checkPermission(final Context context) {
         int currentAPIVersion = Build.VERSION.SDK_INT;
         if (currentAPIVersion >= android.os.Build.VERSION_CODES.M) {

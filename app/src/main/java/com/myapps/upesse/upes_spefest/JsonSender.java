@@ -137,8 +137,8 @@ public class JsonSender implements ReportSender {
         try {
 
             JSONObject email_json = new JSONObject();
-            email_json.put("email", "aniruddhastapas@gmail.com"); // recipient email address goes here
-            email_json.put("name", "Aniruddha"); // receiver's name..can be changed
+            email_json.put("email", "xaidmetamorphos@gmail.com"); // recipient email address goes here
+            email_json.put("name", "zaid"); // receiver's name..can be changed
             email_json.put("type", "to");
 
             JSONArray email_array = new JSONArray();
